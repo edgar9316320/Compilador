@@ -1,0 +1,13 @@
+/* Implementación de la serie de fibonacci usando ULA y hacer mientras*/
+indice igual 1
+cantidadCiclos igual 10
+termino1 igual 0
+termino2 igual 1
+
+hacer {
+  mostrar(termino1)
+  siguienteTermino igual termino1 mas termino2
+  termino1 igual termino2
+  termino2 igual siguienteTermino
+  indice igual indice mas 1
+} mientras (indice menor que cantidadCiclos) 

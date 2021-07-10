@@ -1,0 +1,12 @@
+/* Ejemplo de mostrar solo los numeros pares */
+inicio = 1
+final = 10
+
+mientras (inicio <= final) {
+  numeroAProbar igual a inicio
+  mientras (numeroAProbar es mayor que 0) {
+    numeroAProbar igual a numeroAProbar menos 2
+  }
+  si (numeroAProbar es igual que 0) mostrar(inicio)
+  inicio igual a inicio mas 1
+}

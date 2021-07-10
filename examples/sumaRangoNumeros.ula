@@ -1,0 +1,14 @@
+/* Ejemplo realizado por 3 estudiantes de medicina */
+/* Nota: necesitaron pistas */
+/* decian 0 mas 1 es 1, 1 mas 2 es 3 y asi pero no pudieron definir el algoritmo */
+/* con ayuda escribieron esto */
+
+inicio igual a 0
+final igual a 17 
+resultado igual a 0
+hacer {
+resultado igual a inicio mas resultado
+inicio igual a inicio mas 1 
+
+} mientras (inicio es menor igual que final)
+mostrar (resultado)

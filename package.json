@@ -1,0 +1,25 @@
+{
+  "name": "compilers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/compiler.js",
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest --verbose -i "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chevrotain": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}

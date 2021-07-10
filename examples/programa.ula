@@ -1,0 +1,8 @@
+/* Programa de Ejemplo 1 */
+i = 125 + 2; 
+j igual 100 por 2 mas 4; 
+mientras (i menor igual que j) 
+  si (i < j) 
+    j = j - i;
+mostrar(j)
+mostrar(i)

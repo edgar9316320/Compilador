@@ -1,0 +1,6 @@
+/* Ejemplo de condicionante ternario */
+mayorEdad = 19
+menorEdad = 10
+
+
+ternario (mayorEdad > 18) ? mostrar(mayorEdad) : mostrar(menorEdad)
